@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sabbani Varun | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+ <!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="logo">Sabbani Varun</div>
+  <ul>
+    <li><a href="#home"><i class="fas fa-house"></i> Home</a></li>
+    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+    <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-left">
+    <h4>Hello!</h4>
+    <h1>I'm <span class="name-highlight">Sabbani</span><br><span class="name-highlight">Varun</span></h1>
+    <p><span id="typed-text" class="typed-effect"></span></p>
+    <p>B.Tech ECE<br>CMR Engineering College</p>
+    <a href="assets/VARUN RESUME SW.pdf" download class="btn">Download Resume</a>
+  </div>
+  <div class="hero-right">
+    <!-- <img src="images/ghi-removebg-preview.png" alt="Sabbani Varun" /> -->
+  </div>
+</section>
+
+
+
+  <!-- Initialize Typed.js -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new Typed('#typed-text', {
+        strings: ['Future Software Engineer', 'Electronics Enthusiast', 'Student'],
+        typeSpeed: 60,
+        backSpeed: 40,
+        backDelay: 1500,
+        loop: true
+      });
+    });
+  </script>
+
+  <!-- Initialize Particles.js -->
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": { "enable": true, "value_area": 800 }
+        },
+        "color": { "value": "#00ffff" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5, "random": true },
+        "size": { "value": 3 },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#00ffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": { "enable": true, "speed": 2 }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+
+
+  <!-- About Section -->
+  <section id="about">
+  <div class="about-container">
+
+    <div class="about-left">
+      <img src="images/varun pass photo.jpg" alt="Sabbani Varun" class="profile-pic" />
+      <h3>Skills</h3>
+      <div class="skill">
+        <label>C/C++</label>
+        <div class="progress-bar">
+          <div class="progress" style="width: 95%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <label>HTML/CSS</label>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <label>Python</label>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <label>Java</label>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <h2>About Me</h2>
+      <p><strong>Profile:</strong> Software Developer</p>
+      <p><strong>Education:</strong> B.Tech in Electronics and Communication Engineering</p>
+      <p><strong>Domain:</strong> ECE + Full Stack Development</p>
+      <p><strong>Languages:</strong> English, Telugu, Hindi</p>
+      <p><strong>Other Skills:</strong> MS Office, PowerPoint, Word, Excel</p>
+      <p><strong>Interests:</strong> Real-time applications, Design, Automation</p>
+      <a href="https://www.linkedin.com/in/varun-sabbani-509a8b215" target="_blank" class="btn">LinkedIn</a>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+ <p>I am a motivated and enthusiastic engineering student with a strong foundation in 
+Electronics and Communication Engineering (ECE) and a growing expertise in Software Development.
+Currently pursuing my B.Tech at CMR Engineering College, I am passionate about leveraging 
+technology to solve real-world problems.
+I have hands-on experience in programming, embedded systems, and full-stack development.
+With a keen interest in innovation and continuous learning, I actively participate in 
+technical projects, workshops, and hackathons to enhance my skills and stay updated 
+with the latest trends in technology.
+I am eager to contribute to challenging projects and grow as a professional in the 
+field of technology.
+</p>
+  <!-- Certifications Section -->
+<section id="certifications">
+  <h2>Certifications & Assessments</h2>
+  <p>Here are some of the certifications I have earned:</p>
+
+  <div class="certifications-grid">
+    <div class="cert-card">
+      <h3>Python Programming</h3>
+      <p>Completed on 08 Feb, 2025</p>
+    </div>
+
+    <div class="cert-card">
+      <h3>Java Training</h3>
+      <p>Completed on 26 Apr, 2024</p>
+    </div>
+
+    <div class="cert-card">
+      <h3>Python 3.4.3 Training</h3>
+      <p>Completed on 01 May, 2024</p>
+    </div>
+
+    <div class="cert-card">
+      <h3>TCS iON Career Edge – Young Professional</h3>
+      <p>Completed on 19 May, 2024</p>
+    </div>
+
+    <div class="cert-card">
+      <h3>Employability Skills (JobReady - CSC)</h3>
+      <p>Completed on 21 Mar, 2025</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Education Section -->
+ <section id="education">
+  <h2>Education</h2>
+  <div class="education-grid">
+    <div class="edu-card">
+      <h3>CMR Engineering College, Hyderabad</h3>
+      <p><strong>Degree:</strong> B.Tech in ECE</p>
+      <p><strong>Years:</strong> 2022 – 2026</p>
+      <p><strong>CGPA:</strong> 8.67 / 10</p>
+      <p><strong>Location:</strong> Kandlakoya, Hyderabad, Telangana, India</p>
+    </div>
+      <div class="edu-card">
+        <h3>Diploma (Board of Technical Education)</h3>
+        <p><strong>Years:</strong> 2019 – 2022</p>
+        <p><strong>CGPA:</strong> 7.82 / 10</p>
+        <p><strong>Location:</strong> Bhogir, Yadadri Bhuvanagiri, Telangana, India</p>
+      </div>
+      <div class="edu-card">
+        <h3>10th – SSC</h3>
+        <p><strong>School:</strong> Government High School</p>
+        <p><strong>Year:</strong> 2019 - 2020</p>
+        <p><strong>CGPA:</strong> 9.5 / 10</p>
+      <p><strong>Location:</strong> Gajwel, siddipet, Telangana, India</p>
+      </div>
+    </div>
+    <!-- <a href="assets/Resume_SabbaniVarun.pdf" class="btn" download>Download CV</a> -->
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/fingerprint.jpeg" alt="Fingerprint Project">
+        <h3>Fake Fingerprint Detection</h3>
+        <p>MATLAB-based biometric system with GUI to detect fake fingerprints using machine learning.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/weather.jpeg" alt="Weather Project">
+        <h3>Weather & News App</h3>
+        <p>Python GUI using Tkinter with OpenWeather & NewsAPI to show real-time weather & news.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/facial.jpeg" alt="Face Recognition">
+        <h3>Face Recognition Attendance System</h3>
+        <p>Real-time face detection app with OpenCV and SQLite for secure attendance logging.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/Screenshot 2025-05-16 125510.png" alt="Portfolio">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio made with HTML, CSS, JS to showcase profile, projects and resume.</p>
+      </div>
+  <div class="project-card">
+  <img src="images/dice img.jpeg" alt="Electronic Dice">
+  <h3>Electronic Dice</h3>
+  <p>Arduino-powered electronic dice using a 7-segment display and push button to simulate real dice rolls with random numbers from 1 to 6.</p>
+</div>
+
+   <div class="project-card">
+  <img src="images/blindstick.jpg" alt="Blind Stick">
+  <h3>Smart Blind Stick</h3>
+  <p>IoT-based smart stick using ultrasonic sensors and buzzers to detect obstacles and alert visually impaired users with sound and vibration feedback.</p>
+</div>
+
+   <div class="project-card">
+  <img src="images/piano.jpeg" alt="Electronic Piano">
+  <h3>Electronic Piano</h3>
+  <p>Arduino-based mini piano using push buttons and a piezo buzzer to play musical notes, simulating a basic keyboard instrument.</p>
+</div>
+
+
+    </div>
+
+
+  </section>
+
+ <!-- contact section -->
+  
+  <body>
+  <section class="contact-section">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>ADDRESS</h3>
+        <p>Gajwel, Telangana, India</p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone-alt"></i>
+        <h3>CONTACT NUMBER</h3>
+        <p>+91 8328249633</p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <h3>EMAIL ADDRESS</h3>
+        <p>238r5a0413@gmail.com</p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-download"></i>
+        <h3>DOWNLOAD RESUME</h3>
+        <p><a href="assets/VARUN RESUME SW.pdf" download>Click Here</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Sabbani Varun. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+  <script src="js/script.js"></script>
+</body>
+</html>
